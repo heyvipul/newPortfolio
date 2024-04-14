@@ -1,6 +1,7 @@
 import './App.css'
 import { About } from './components/About/About'
 import { Github } from './components/About/Github'
+import { Contact } from './components/Contact/Contact'
 import { Footer } from './components/Footer/Footer'
 import { Header } from './components/Header/Header'
 import { ScrollToTop } from './components/ScrollToTop/ScrollToTop'
@@ -17,6 +18,9 @@ function App() {
       <main>
         <About/>
         <Github/>
+        <section id="#contact">
+          <Contact />
+        </section>
       </main>
       <Footer/> 
       <ScrollToTop/>
