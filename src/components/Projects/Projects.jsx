@@ -5,6 +5,7 @@ import fullstack from "../../assets/fullstackProject.jpg"
 import mineWine from "../../assets/mineWine.jpg"
 import bluefly from "../../assets/bluefly.jpg"
 import bewakoof from "../../assets/Bewakoof.png"
+import chatapplication from "../../assets/chatapplication.jpg"
 import { FaNodeJs, FaReact } from "react-icons/fa";
 import {
   SiHtml5,
@@ -16,9 +17,12 @@ import {
   SiAxios,
   SiVercel,
   SiReact,
-  SiRazorpay
+  SiRazorpay,
+  SiVite,
+  SiReactrouter,
+  SiSocketdotio
 } from "react-icons/si";
-import { DiCss3, DiJavascript } from "react-icons/di";
+import { DiCss3, DiJavascript, DiReact } from "react-icons/di";
 import { IoLogoJavascript } from "react-icons/io";
 import { BsBootstrap } from "react-icons/bs";
 
@@ -66,6 +70,51 @@ export const Projects = () => {
                 </a>
                 <a
                   href="https://github.com/heyvipul/Travelious"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span type="button" className="btn btn--outline">
+                    View Code
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="projects_container">
+          <div className="project">
+            <div className="project_videocontainer">
+              <div data-aos="fade-right">
+                <img
+                  src={chatapplication}
+                  alt="RealTime Chat Application"
+                />
+              </div>
+            </div>
+            <div className="project_information" data-aos="fade-right">
+              <h2>RealTime Chat Application</h2>
+              <p>
+              A Real-time Chat App developed with React frontend and NodeJS with Socket.io backend. Users can send and receive messages instantly, and receive notifications for new user activity..
+              </p>
+              <div>
+                <SiVite/>
+                <SiReactrouter/>
+                <SiSocketdotio/>
+                <FaNodeJs/>
+                <SiExpress/>
+              </div>
+              <div>
+                <a
+                  href="https://heyvipul-chat-appilcation.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span type="button" className="btn btn--outline onbt">
+                    See this Live
+                  </span>
+                </a>
+                <a
+                  href="https://github.com/heyvipul/Realtime-chat-appilcation"
                   target="_blank"
                   rel="noreferrer"
                 >

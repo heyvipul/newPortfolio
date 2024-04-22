@@ -10,6 +10,7 @@ import { Type } from "./Type";
 import { Introduction } from "./Introduction";
 import { Techstacks } from "./Techstacks";
 import { Timeline } from "./Timeline";
+import { Tools } from "./Tools";
 
 export const About = () => {
   return (
@@ -92,7 +93,8 @@ export const About = () => {
       <Timeline />
       <section id="#skills">
         <Techstacks />
-      </section>
+        <Tools/>
+      </section> 
     </>
   );
 };
