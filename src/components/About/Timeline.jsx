@@ -19,8 +19,40 @@ export const Timeline = () => {
           My <span className="different">Timeline 💫</span>
         </h2>
         <VerticalTimeline lineColor={"#23283e"}>
+        <VerticalTimelineElement
+            date={"June 2024 - Present"}
+            contentStyle={{
+              boxShadow: `rgba(100, 100, 111, 0.2) 0px 7px 29px 0px`,
+              backgroundColor: `#fcfcfc`,
+              textAlign: "center",
+              color: `#444`
+            }}
+            contentArrowStyle={{ borderRight: "16px solid  rgb(33, 150, 243)" }}
+            iconStyle={{
+              backgroundColor: `#fcfcfc`,
+              color: `#2978b5`
+            }}
+            icon={<WorkIcon />}
+          >
+            <h3
+              className="vertical-timeline-element-title"
+              data-aos="fade-right"
+            >
+              Backend Developer
+            </h3>
+            <h4
+              className="vertical-timeline-element-subtitle"
+              data-aos="fade-right"
+            >
+              Edulab (Mumbai, Maharashtra) 
+            </h4>
+            <p data-aos="fade-right">
+            Backend developer skilled in Node.js and Express with a solid understanding of MySQL, PostgreSQL, and MongoDB.
+            {/* Proven ability to build and maintain scalable, high-performance, and secure web applications. */}
+            </p>
+          </VerticalTimelineElement>
           <VerticalTimelineElement
-            date={"January 2024 - Present"}
+            date={"January 2024 - June 2024"}
             contentStyle={{
               boxShadow: `rgba(100, 100, 111, 0.2) 0px 7px 29px 0px`,
               backgroundColor: `#fcfcfc`,
@@ -44,7 +76,7 @@ export const Timeline = () => {
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-              Masai School 
+              Masai School
             </h4>
             <p data-aos="fade-right">
             In the role of Assessment Coordinator, primary responsibility involved conducting mock interviews to help students hone their interview skills or guiding them as a mentor.
