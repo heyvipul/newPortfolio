@@ -21,7 +21,7 @@ export const About = () => {
         </h1>
         <Type />
         <p className="about__desc" data-aos="fade-right">
-          A Full Stack Developer who loves solving problems and building projects. I am equipped with a variety of technologies and tools to help me build the best possible product.
+          Full Stack Developer with 2+ years of experience in the MERN stack, specializing in building scalable web applications and optimizing database performance.
         </p>
         <div className="about__contact center">
           <a
@@ -61,7 +61,7 @@ export const About = () => {
             <LinkedInIcon />
           </a>
           <a
-            href="https://drive.google.com/file/d/1EgalkCUJq4B16x6Z0PdfIuBiKZTe027f/view?usp=sharing"
+            href="https://drive.google.com/file/d/1rp85UWK6mQU581vi0rda4PLdMhLEh7p6/view?usp=sharing"
             aria-label="github"
             className="link link--icon"
             target="_blank"
@@ -92,7 +92,7 @@ export const About = () => {
       <Introduction />
       <Timeline />
       <section id="#skills">
-        <Techstacks />
+        <Techstacks /><br/>
         <Tools/>
       </section> 
     </>

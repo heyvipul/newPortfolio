@@ -1,7 +1,7 @@
 import "./Techstacks.css";
-import { FaReact, FaNodeJs } from "react-icons/fa";
+import { FaReact, FaNodeJs, FaJenkins, FaDocker, FaJava } from "react-icons/fa";
 import { DiCss3, DiMongodb } from "react-icons/di";
-import { SiExpress, SiHtml5, SiJavascript, SiMaterialdesign, SiNetlify, SiNextdotjs, SiRedux, SiSocketdotio, SiTailwindcss } from "react-icons/si";
+import { SiExpress, SiHtml5, SiJavascript, SiMaterialdesign, SiMysql, SiNetlify, SiNextdotjs, SiPostgresql, SiRedux, SiSocketdotio, SiTailwindcss, SiTypescript } from "react-icons/si";
 import { VscGithub } from "react-icons/vsc";
 import { BsBootstrap } from "react-icons/bs";
 
@@ -22,6 +22,14 @@ export const Techstacks = () => {
           <div>
             <SiJavascript />
             <h5>Javascript</h5>
+          </div>
+           <div>
+            <SiTypescript />
+            <h5>TypeScript</h5>
+          </div>
+          <div>
+            <FaJava />
+            <h5>Java</h5>
           </div>
           <div>
             <FaReact />
@@ -44,6 +52,14 @@ export const Techstacks = () => {
             <h5>MongoDb</h5>
           </div>
           <div>
+            <SiMysql />
+            <h5>Mysql</h5>
+          </div>
+          <div>
+            <SiPostgresql />
+            <h5>PostgreSQL</h5>
+          </div>
+          <div>
             <SiMaterialdesign />
             <h5>Material Ui</h5>
           </div>
@@ -59,6 +75,14 @@ export const Techstacks = () => {
             <SiSocketdotio/>
             <h5>Socket.io</h5>
           </div>
+          <div>
+            <FaJenkins />
+            <h5>Jenkins</h5>
+          </div>
+          <div>
+            <FaDocker />
+            <h5>Docker</h5>
+          </div>          
         </div>
       </div>
     </>

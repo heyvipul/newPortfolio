@@ -70,7 +70,7 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Assesment Assistanship Internship
+              Assessment Coordinator
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
@@ -101,7 +101,7 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Student
+              Full Stack Developer Intern
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
@@ -110,8 +110,7 @@ export const Timeline = () => {
               Masai School, Bengaluru (Remote)
             </h4>
             <p data-aos="fade-right">
-              Joined the Military style Bootcamp to learn Software Development
-              and Data Structures. Also learned many soft skills in the process.
+              Developed responsive, user-friendly interfaces and implemented core functionality using HTML, CSS, JavaScript, React.js, and Node.js.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
